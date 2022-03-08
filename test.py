@@ -1,5 +1,5 @@
 def pay(wallet: dict, user: str, price: int):
-    ''' Pay for the shopping cart and then ⁧ return; '''
+    ''' Pay for the shopping cart and then ⁧''';return
     wallet[user] -= price
     return
 
